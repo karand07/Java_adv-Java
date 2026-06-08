@@ -1,6 +1,9 @@
 package com.vehicle;
 
 public class SportsCar extends Car{
+    public SportsCar(){
+        super();
+    }
     public SportsCar(int id,String manufacturer,String model,int speed){
     super(id,manufacturer,model,speed);
     }
