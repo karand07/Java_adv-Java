@@ -1,7 +1,7 @@
 package com.vehicle;
 
 public class Bmw extends  SportsCar{
-    public void Bmw(){
+    public  Bmw(){
         super();
     }
     public Bmw(int id,String model,int speed){
