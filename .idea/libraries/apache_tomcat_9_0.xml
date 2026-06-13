@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="apache-tomcat-9.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/apache-tomcat-9.0.36-20260612T050104Z-3-001/apache-tomcat-9.0.36" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/apache-tomcat-9.0.36-20260612T050104Z-3-001/apache-tomcat-9.0.36/webapps/docs/appdev/sample/src" />
+      <root url="file://$USER_HOME$/Downloads/apache-tomcat-9.0.36-20260612T050104Z-3-001/apache-tomcat-9.0.36/webapps/examples/WEB-INF/classes" />
+      <root url="file://$USER_HOME$/Downloads/apache-tomcat-9.0.36-20260612T050104Z-3-001/apache-tomcat-9.0.36/webapps/examples/WEB-INF/jsp/applet" />
+      <root url="file://$USER_HOME$/Downloads/apache-tomcat-9.0.36-20260612T050104Z-3-001/apache-tomcat-9.0.36/webapps/examples/jsp/plugin/applet" />
+      <root url="file://$USER_HOME$/Downloads/apache-tomcat-9.0.36-20260612T050104Z-3-001/apache-tomcat-9.0.36/work/Catalina/localhost/ROOT" />
+      <root url="file://$USER_HOME$/Downloads/apache-tomcat-9.0.36-20260612T050104Z-3-001/apache-tomcat-9.0.36/work/Catalina/localhost/manager" />
+    </SOURCES>
+  </library>
+</component>
