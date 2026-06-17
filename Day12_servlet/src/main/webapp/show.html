@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form id="studentForm">
+        Name:
+        <input type="text" id="name" required>
+        <br><br>
+
+        Email:
+        <input type="email" id="email" required>
+        <br><br>
+
+        Course:
+        <select id="course">
+            <option>BCA</option>
+            <option>B.Tech</option>
+            <option>B.Sc</option>
+            <option>MCA</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <hr>
+
+    <h2>Registered Students</h2>
+
+    <table border="1" >
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+
+        <tbody id="studentTableBody">
+        </tbody>
+    </table>
+
+    <script>
+        const form = document.getElementById("studentForm");
+        const tableBody = document.getElementById("studentTableBody");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const course = document.getElementById("course").value;
+
+            const row = document.createElement("tr");
+
+            row.innerHTML = `
+                <td>${name}</td>
+                <td>${email}</td>
+                <td>${course}</td>
+            `;
+
+            tableBody.appendChild(row);
+
+            form.reset();
+        });
+    </script>
+
+</body>
+</html>
